@@ -1,0 +1,30 @@
+Source documents listed: 8
+Source documents used: 8
+Random seed: 2026
+Attack 3 method: the 5 evaluation watermarking passages with the lowest IDs, chosen before any scoring.
+
+CALIBRATION
+  unmarked short: 50
+  unmarked medium: 50
+  unmarked long: 50
+  unmarked total: 150
+  watermarking: 5
+  passages per source:
+    S01 Pride and Prejudice: 41
+    S03 Dracula: 31
+    S05 Little Women: 77
+    S07 The Time Machine: 6
+
+EVALUATION
+  unmarked short: 50
+  unmarked medium: 50
+  unmarked long: 50
+  unmarked total: 150
+  watermarking: 10
+  passages per source:
+    S02 Alice's Adventures in Wonderland: 23
+    S04 Frankenstein: 36
+    S06 The Adventures of Sherlock Holmes: 77
+    S08 The Adventures of Tom Sawyer: 24
+
+All checks passed.

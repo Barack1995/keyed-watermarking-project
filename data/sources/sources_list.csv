@@ -1,0 +1,9 @@
+source_id,file_name,title,author,link,set
+S01,S01_pride_prejudice.txt,Pride and Prejudice,Jane Austen,https://www.gutenberg.org/ebooks/1342,calibration
+S02,S02_alice.txt,Alice's Adventures in Wonderland,Lewis Carroll,https://www.gutenberg.org/ebooks/11,evaluation
+S03,S03_dracula.txt,Dracula,Bram Stoker,https://www.gutenberg.org/ebooks/345,calibration
+S04,S04_frankenstein.txt,Frankenstein,Mary Shelley,https://www.gutenberg.org/ebooks/84,evaluation
+S05,S05_little_women.txt,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514,calibration
+S06,S06_sherlock_holmes.txt,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661,evaluation
+S07,S07_time_machine.txt,The Time Machine,H. G. Wells,https://www.gutenberg.org/ebooks/35,calibration
+S08,S08_tom_sawyer.txt,The Adventures of Tom Sawyer,Mark Twain,https://www.gutenberg.org/ebooks/74,evaluation
