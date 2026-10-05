@@ -1,0 +1,316 @@
+passage_id,set,purpose,attack3,length_group,total_words,distinct_words,source_id,title,author,link
+C-U-001,calibration,unmarked,no,short,37,34,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-002,calibration,unmarked,no,short,40,38,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-003,calibration,unmarked,no,short,86,62,S07,The Time Machine,H. G. Wells,https://www.gutenberg.org/ebooks/35
+C-U-004,calibration,unmarked,no,short,37,25,S03,Dracula,Bram Stoker,https://www.gutenberg.org/ebooks/345
+C-U-005,calibration,unmarked,no,short,37,33,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-006,calibration,unmarked,no,short,69,60,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-007,calibration,unmarked,no,short,32,30,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-008,calibration,unmarked,no,short,83,68,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-009,calibration,unmarked,no,short,76,59,S01,Pride and Prejudice,Jane Austen,https://www.gutenberg.org/ebooks/1342
+C-U-010,calibration,unmarked,no,short,33,27,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-011,calibration,unmarked,no,short,86,65,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-012,calibration,unmarked,no,short,89,68,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-013,calibration,unmarked,no,short,37,33,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-014,calibration,unmarked,no,short,92,70,S01,Pride and Prejudice,Jane Austen,https://www.gutenberg.org/ebooks/1342
+C-U-015,calibration,unmarked,no,short,74,56,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-016,calibration,unmarked,no,short,41,34,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-017,calibration,unmarked,no,short,43,34,S01,Pride and Prejudice,Jane Austen,https://www.gutenberg.org/ebooks/1342
+C-U-018,calibration,unmarked,no,short,35,27,S01,Pride and Prejudice,Jane Austen,https://www.gutenberg.org/ebooks/1342
+C-U-019,calibration,unmarked,no,short,59,52,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-020,calibration,unmarked,no,short,39,33,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-021,calibration,unmarked,no,short,44,36,S03,Dracula,Bram Stoker,https://www.gutenberg.org/ebooks/345
+C-U-022,calibration,unmarked,no,short,95,68,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-023,calibration,unmarked,no,short,72,62,S01,Pride and Prejudice,Jane Austen,https://www.gutenberg.org/ebooks/1342
+C-U-024,calibration,unmarked,no,short,82,66,S01,Pride and Prejudice,Jane Austen,https://www.gutenberg.org/ebooks/1342
+C-U-025,calibration,unmarked,no,short,54,45,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-026,calibration,unmarked,no,short,30,27,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-027,calibration,unmarked,no,short,48,42,S01,Pride and Prejudice,Jane Austen,https://www.gutenberg.org/ebooks/1342
+C-U-028,calibration,unmarked,no,short,48,39,S01,Pride and Prejudice,Jane Austen,https://www.gutenberg.org/ebooks/1342
+C-U-029,calibration,unmarked,no,short,33,31,S01,Pride and Prejudice,Jane Austen,https://www.gutenberg.org/ebooks/1342
+C-U-030,calibration,unmarked,no,short,55,40,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-031,calibration,unmarked,no,short,81,66,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-032,calibration,unmarked,no,short,55,47,S01,Pride and Prejudice,Jane Austen,https://www.gutenberg.org/ebooks/1342
+C-U-033,calibration,unmarked,no,short,37,33,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-034,calibration,unmarked,no,short,85,67,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-035,calibration,unmarked,no,short,72,58,S01,Pride and Prejudice,Jane Austen,https://www.gutenberg.org/ebooks/1342
+C-U-036,calibration,unmarked,no,short,73,57,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-037,calibration,unmarked,no,short,53,45,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-038,calibration,unmarked,no,short,32,28,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-039,calibration,unmarked,no,short,31,25,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-040,calibration,unmarked,no,short,31,29,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-041,calibration,unmarked,no,short,36,32,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-042,calibration,unmarked,no,short,40,37,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-043,calibration,unmarked,no,short,41,32,S03,Dracula,Bram Stoker,https://www.gutenberg.org/ebooks/345
+C-U-044,calibration,unmarked,no,short,60,50,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-045,calibration,unmarked,no,short,44,37,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-046,calibration,unmarked,no,short,80,65,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-047,calibration,unmarked,no,short,95,65,S03,Dracula,Bram Stoker,https://www.gutenberg.org/ebooks/345
+C-U-048,calibration,unmarked,no,short,36,33,S03,Dracula,Bram Stoker,https://www.gutenberg.org/ebooks/345
+C-U-049,calibration,unmarked,no,short,97,71,S03,Dracula,Bram Stoker,https://www.gutenberg.org/ebooks/345
+C-U-050,calibration,unmarked,no,short,92,70,S01,Pride and Prejudice,Jane Austen,https://www.gutenberg.org/ebooks/1342
+C-U-051,calibration,unmarked,no,medium,114,83,S03,Dracula,Bram Stoker,https://www.gutenberg.org/ebooks/345
+C-U-052,calibration,unmarked,no,medium,181,116,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-053,calibration,unmarked,no,medium,114,81,S01,Pride and Prejudice,Jane Austen,https://www.gutenberg.org/ebooks/1342
+C-U-054,calibration,unmarked,no,medium,193,126,S01,Pride and Prejudice,Jane Austen,https://www.gutenberg.org/ebooks/1342
+C-U-055,calibration,unmarked,no,medium,171,101,S03,Dracula,Bram Stoker,https://www.gutenberg.org/ebooks/345
+C-U-056,calibration,unmarked,no,medium,157,92,S03,Dracula,Bram Stoker,https://www.gutenberg.org/ebooks/345
+C-U-057,calibration,unmarked,no,medium,182,113,S07,The Time Machine,H. G. Wells,https://www.gutenberg.org/ebooks/35
+C-U-058,calibration,unmarked,no,medium,102,71,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-059,calibration,unmarked,no,medium,162,101,S07,The Time Machine,H. G. Wells,https://www.gutenberg.org/ebooks/35
+C-U-060,calibration,unmarked,no,medium,160,106,S01,Pride and Prejudice,Jane Austen,https://www.gutenberg.org/ebooks/1342
+C-U-061,calibration,unmarked,no,medium,104,78,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-062,calibration,unmarked,no,medium,103,80,S01,Pride and Prejudice,Jane Austen,https://www.gutenberg.org/ebooks/1342
+C-U-063,calibration,unmarked,no,medium,157,99,S01,Pride and Prejudice,Jane Austen,https://www.gutenberg.org/ebooks/1342
+C-U-064,calibration,unmarked,no,medium,117,82,S03,Dracula,Bram Stoker,https://www.gutenberg.org/ebooks/345
+C-U-065,calibration,unmarked,no,medium,111,87,S03,Dracula,Bram Stoker,https://www.gutenberg.org/ebooks/345
+C-U-066,calibration,unmarked,no,medium,137,97,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-067,calibration,unmarked,no,medium,102,77,S01,Pride and Prejudice,Jane Austen,https://www.gutenberg.org/ebooks/1342
+C-U-068,calibration,unmarked,no,medium,153,106,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-069,calibration,unmarked,no,medium,197,111,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-070,calibration,unmarked,no,medium,116,82,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-071,calibration,unmarked,no,medium,117,92,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-072,calibration,unmarked,no,medium,100,76,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-073,calibration,unmarked,no,medium,166,105,S03,Dracula,Bram Stoker,https://www.gutenberg.org/ebooks/345
+C-U-074,calibration,unmarked,no,medium,166,116,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-075,calibration,unmarked,no,medium,168,117,S01,Pride and Prejudice,Jane Austen,https://www.gutenberg.org/ebooks/1342
+C-U-076,calibration,unmarked,no,medium,173,115,S03,Dracula,Bram Stoker,https://www.gutenberg.org/ebooks/345
+C-U-077,calibration,unmarked,no,medium,118,81,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-078,calibration,unmarked,no,medium,120,87,S01,Pride and Prejudice,Jane Austen,https://www.gutenberg.org/ebooks/1342
+C-U-079,calibration,unmarked,no,medium,125,96,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-080,calibration,unmarked,no,medium,100,83,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-081,calibration,unmarked,no,medium,133,93,S01,Pride and Prejudice,Jane Austen,https://www.gutenberg.org/ebooks/1342
+C-U-082,calibration,unmarked,no,medium,104,71,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-083,calibration,unmarked,no,medium,117,79,S01,Pride and Prejudice,Jane Austen,https://www.gutenberg.org/ebooks/1342
+C-U-084,calibration,unmarked,no,medium,154,89,S03,Dracula,Bram Stoker,https://www.gutenberg.org/ebooks/345
+C-U-085,calibration,unmarked,no,medium,154,88,S03,Dracula,Bram Stoker,https://www.gutenberg.org/ebooks/345
+C-U-086,calibration,unmarked,no,medium,189,125,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-087,calibration,unmarked,no,medium,132,98,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-088,calibration,unmarked,no,medium,104,73,S01,Pride and Prejudice,Jane Austen,https://www.gutenberg.org/ebooks/1342
+C-U-089,calibration,unmarked,no,medium,148,101,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-090,calibration,unmarked,no,medium,134,93,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-091,calibration,unmarked,no,medium,175,121,S03,Dracula,Bram Stoker,https://www.gutenberg.org/ebooks/345
+C-U-092,calibration,unmarked,no,medium,115,88,S01,Pride and Prejudice,Jane Austen,https://www.gutenberg.org/ebooks/1342
+C-U-093,calibration,unmarked,no,medium,135,100,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-094,calibration,unmarked,no,medium,120,79,S03,Dracula,Bram Stoker,https://www.gutenberg.org/ebooks/345
+C-U-095,calibration,unmarked,no,medium,180,116,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-096,calibration,unmarked,no,medium,105,71,S03,Dracula,Bram Stoker,https://www.gutenberg.org/ebooks/345
+C-U-097,calibration,unmarked,no,medium,125,84,S03,Dracula,Bram Stoker,https://www.gutenberg.org/ebooks/345
+C-U-098,calibration,unmarked,no,medium,161,111,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-099,calibration,unmarked,no,medium,118,81,S03,Dracula,Bram Stoker,https://www.gutenberg.org/ebooks/345
+C-U-100,calibration,unmarked,no,medium,111,77,S01,Pride and Prejudice,Jane Austen,https://www.gutenberg.org/ebooks/1342
+C-U-101,calibration,unmarked,no,long,232,142,S01,Pride and Prejudice,Jane Austen,https://www.gutenberg.org/ebooks/1342
+C-U-102,calibration,unmarked,no,long,265,155,S01,Pride and Prejudice,Jane Austen,https://www.gutenberg.org/ebooks/1342
+C-U-103,calibration,unmarked,no,long,258,141,S01,Pride and Prejudice,Jane Austen,https://www.gutenberg.org/ebooks/1342
+C-U-104,calibration,unmarked,no,long,235,148,S01,Pride and Prejudice,Jane Austen,https://www.gutenberg.org/ebooks/1342
+C-U-105,calibration,unmarked,no,long,283,174,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-106,calibration,unmarked,no,long,352,177,S03,Dracula,Bram Stoker,https://www.gutenberg.org/ebooks/345
+C-U-107,calibration,unmarked,no,long,377,210,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-108,calibration,unmarked,no,long,279,155,S03,Dracula,Bram Stoker,https://www.gutenberg.org/ebooks/345
+C-U-109,calibration,unmarked,no,long,311,163,S07,The Time Machine,H. G. Wells,https://www.gutenberg.org/ebooks/35
+C-U-110,calibration,unmarked,no,long,211,138,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-111,calibration,unmarked,no,long,218,120,S01,Pride and Prejudice,Jane Austen,https://www.gutenberg.org/ebooks/1342
+C-U-112,calibration,unmarked,no,long,273,158,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-113,calibration,unmarked,no,long,219,147,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-114,calibration,unmarked,no,long,363,170,S03,Dracula,Bram Stoker,https://www.gutenberg.org/ebooks/345
+C-U-115,calibration,unmarked,no,long,212,131,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-116,calibration,unmarked,no,long,208,138,S01,Pride and Prejudice,Jane Austen,https://www.gutenberg.org/ebooks/1342
+C-U-117,calibration,unmarked,no,long,220,135,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-118,calibration,unmarked,no,long,365,206,S03,Dracula,Bram Stoker,https://www.gutenberg.org/ebooks/345
+C-U-119,calibration,unmarked,no,long,217,126,S01,Pride and Prejudice,Jane Austen,https://www.gutenberg.org/ebooks/1342
+C-U-120,calibration,unmarked,no,long,223,143,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-121,calibration,unmarked,no,long,323,192,S01,Pride and Prejudice,Jane Austen,https://www.gutenberg.org/ebooks/1342
+C-U-122,calibration,unmarked,no,long,257,162,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-123,calibration,unmarked,no,long,203,130,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-124,calibration,unmarked,no,long,367,195,S01,Pride and Prejudice,Jane Austen,https://www.gutenberg.org/ebooks/1342
+C-U-125,calibration,unmarked,no,long,255,161,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-126,calibration,unmarked,no,long,222,137,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-127,calibration,unmarked,no,long,224,124,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-128,calibration,unmarked,no,long,285,156,S07,The Time Machine,H. G. Wells,https://www.gutenberg.org/ebooks/35
+C-U-129,calibration,unmarked,no,long,211,129,S03,Dracula,Bram Stoker,https://www.gutenberg.org/ebooks/345
+C-U-130,calibration,unmarked,no,long,214,132,S01,Pride and Prejudice,Jane Austen,https://www.gutenberg.org/ebooks/1342
+C-U-131,calibration,unmarked,no,long,262,166,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-132,calibration,unmarked,no,long,217,151,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-133,calibration,unmarked,no,long,285,139,S03,Dracula,Bram Stoker,https://www.gutenberg.org/ebooks/345
+C-U-134,calibration,unmarked,no,long,221,141,S01,Pride and Prejudice,Jane Austen,https://www.gutenberg.org/ebooks/1342
+C-U-135,calibration,unmarked,no,long,235,143,S01,Pride and Prejudice,Jane Austen,https://www.gutenberg.org/ebooks/1342
+C-U-136,calibration,unmarked,no,long,214,125,S01,Pride and Prejudice,Jane Austen,https://www.gutenberg.org/ebooks/1342
+C-U-137,calibration,unmarked,no,long,225,132,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-138,calibration,unmarked,no,long,206,135,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-139,calibration,unmarked,no,long,303,197,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-140,calibration,unmarked,no,long,240,149,S03,Dracula,Bram Stoker,https://www.gutenberg.org/ebooks/345
+C-U-141,calibration,unmarked,no,long,297,195,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-142,calibration,unmarked,no,long,252,145,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-143,calibration,unmarked,no,long,299,187,S07,The Time Machine,H. G. Wells,https://www.gutenberg.org/ebooks/35
+C-U-144,calibration,unmarked,no,long,295,163,S01,Pride and Prejudice,Jane Austen,https://www.gutenberg.org/ebooks/1342
+C-U-145,calibration,unmarked,no,long,218,136,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-146,calibration,unmarked,no,long,267,147,S03,Dracula,Bram Stoker,https://www.gutenberg.org/ebooks/345
+C-U-147,calibration,unmarked,no,long,220,149,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-148,calibration,unmarked,no,long,244,142,S03,Dracula,Bram Stoker,https://www.gutenberg.org/ebooks/345
+C-U-149,calibration,unmarked,no,long,202,125,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-U-150,calibration,unmarked,no,long,218,132,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-W-01,calibration,watermarking,no,medium,132,91,S03,Dracula,Bram Stoker,https://www.gutenberg.org/ebooks/345
+C-W-02,calibration,watermarking,no,medium,117,82,S05,Little Women,Louisa May Alcott,https://www.gutenberg.org/ebooks/514
+C-W-03,calibration,watermarking,no,medium,117,85,S01,Pride and Prejudice,Jane Austen,https://www.gutenberg.org/ebooks/1342
+C-W-04,calibration,watermarking,no,medium,128,90,S03,Dracula,Bram Stoker,https://www.gutenberg.org/ebooks/345
+C-W-05,calibration,watermarking,no,medium,167,105,S01,Pride and Prejudice,Jane Austen,https://www.gutenberg.org/ebooks/1342
+E-U-001,evaluation,unmarked,no,short,64,51,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-002,evaluation,unmarked,no,short,61,44,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-003,evaluation,unmarked,no,short,80,56,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-004,evaluation,unmarked,no,short,75,60,S04,Frankenstein,Mary Shelley,https://www.gutenberg.org/ebooks/84
+E-U-005,evaluation,unmarked,no,short,37,28,S02,Alice's Adventures in Wonderland,Lewis Carroll,https://www.gutenberg.org/ebooks/11
+E-U-006,evaluation,unmarked,no,short,52,42,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-007,evaluation,unmarked,no,short,41,36,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-008,evaluation,unmarked,no,short,61,43,S04,Frankenstein,Mary Shelley,https://www.gutenberg.org/ebooks/84
+E-U-009,evaluation,unmarked,no,short,89,66,S04,Frankenstein,Mary Shelley,https://www.gutenberg.org/ebooks/84
+E-U-010,evaluation,unmarked,no,short,65,51,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-011,evaluation,unmarked,no,short,76,57,S08,The Adventures of Tom Sawyer,Mark Twain,https://www.gutenberg.org/ebooks/74
+E-U-012,evaluation,unmarked,no,short,32,29,S02,Alice's Adventures in Wonderland,Lewis Carroll,https://www.gutenberg.org/ebooks/11
+E-U-013,evaluation,unmarked,no,short,35,33,S08,The Adventures of Tom Sawyer,Mark Twain,https://www.gutenberg.org/ebooks/74
+E-U-014,evaluation,unmarked,no,short,44,34,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-015,evaluation,unmarked,no,short,45,34,S04,Frankenstein,Mary Shelley,https://www.gutenberg.org/ebooks/84
+E-U-016,evaluation,unmarked,no,short,80,59,S04,Frankenstein,Mary Shelley,https://www.gutenberg.org/ebooks/84
+E-U-017,evaluation,unmarked,no,short,46,40,S02,Alice's Adventures in Wonderland,Lewis Carroll,https://www.gutenberg.org/ebooks/11
+E-U-018,evaluation,unmarked,no,short,76,57,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-019,evaluation,unmarked,no,short,51,39,S08,The Adventures of Tom Sawyer,Mark Twain,https://www.gutenberg.org/ebooks/74
+E-U-020,evaluation,unmarked,no,short,47,37,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-021,evaluation,unmarked,no,short,39,35,S02,Alice's Adventures in Wonderland,Lewis Carroll,https://www.gutenberg.org/ebooks/11
+E-U-022,evaluation,unmarked,no,short,97,64,S02,Alice's Adventures in Wonderland,Lewis Carroll,https://www.gutenberg.org/ebooks/11
+E-U-023,evaluation,unmarked,no,short,85,55,S04,Frankenstein,Mary Shelley,https://www.gutenberg.org/ebooks/84
+E-U-024,evaluation,unmarked,no,short,73,53,S02,Alice's Adventures in Wonderland,Lewis Carroll,https://www.gutenberg.org/ebooks/11
+E-U-025,evaluation,unmarked,no,short,77,57,S08,The Adventures of Tom Sawyer,Mark Twain,https://www.gutenberg.org/ebooks/74
+E-U-026,evaluation,unmarked,no,short,33,28,S08,The Adventures of Tom Sawyer,Mark Twain,https://www.gutenberg.org/ebooks/74
+E-U-027,evaluation,unmarked,no,short,62,50,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-028,evaluation,unmarked,no,short,35,29,S02,Alice's Adventures in Wonderland,Lewis Carroll,https://www.gutenberg.org/ebooks/11
+E-U-029,evaluation,unmarked,no,short,78,56,S02,Alice's Adventures in Wonderland,Lewis Carroll,https://www.gutenberg.org/ebooks/11
+E-U-030,evaluation,unmarked,no,short,59,47,S02,Alice's Adventures in Wonderland,Lewis Carroll,https://www.gutenberg.org/ebooks/11
+E-U-031,evaluation,unmarked,no,short,33,27,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-032,evaluation,unmarked,no,short,32,27,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-033,evaluation,unmarked,no,short,54,42,S04,Frankenstein,Mary Shelley,https://www.gutenberg.org/ebooks/84
+E-U-034,evaluation,unmarked,no,short,41,34,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-035,evaluation,unmarked,no,short,37,32,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-036,evaluation,unmarked,no,short,66,45,S04,Frankenstein,Mary Shelley,https://www.gutenberg.org/ebooks/84
+E-U-037,evaluation,unmarked,no,short,32,27,S02,Alice's Adventures in Wonderland,Lewis Carroll,https://www.gutenberg.org/ebooks/11
+E-U-038,evaluation,unmarked,no,short,47,40,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-039,evaluation,unmarked,no,short,52,42,S08,The Adventures of Tom Sawyer,Mark Twain,https://www.gutenberg.org/ebooks/74
+E-U-040,evaluation,unmarked,no,short,94,68,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-041,evaluation,unmarked,no,short,40,34,S02,Alice's Adventures in Wonderland,Lewis Carroll,https://www.gutenberg.org/ebooks/11
+E-U-042,evaluation,unmarked,no,short,63,49,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-043,evaluation,unmarked,no,short,38,31,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-044,evaluation,unmarked,no,short,31,26,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-045,evaluation,unmarked,no,short,75,55,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-046,evaluation,unmarked,no,short,67,49,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-047,evaluation,unmarked,no,short,91,65,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-048,evaluation,unmarked,no,short,34,29,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-049,evaluation,unmarked,no,short,47,44,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-050,evaluation,unmarked,no,short,83,63,S04,Frankenstein,Mary Shelley,https://www.gutenberg.org/ebooks/84
+E-U-051,evaluation,unmarked,no,medium,104,65,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-052,evaluation,unmarked,no,medium,114,88,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-053,evaluation,unmarked,no,medium,192,113,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-054,evaluation,unmarked,no,medium,114,81,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-055,evaluation,unmarked,no,medium,128,88,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-056,evaluation,unmarked,no,medium,127,88,S02,Alice's Adventures in Wonderland,Lewis Carroll,https://www.gutenberg.org/ebooks/11
+E-U-057,evaluation,unmarked,no,medium,117,77,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-058,evaluation,unmarked,no,medium,102,68,S04,Frankenstein,Mary Shelley,https://www.gutenberg.org/ebooks/84
+E-U-059,evaluation,unmarked,no,medium,139,94,S04,Frankenstein,Mary Shelley,https://www.gutenberg.org/ebooks/84
+E-U-060,evaluation,unmarked,no,medium,114,84,S04,Frankenstein,Mary Shelley,https://www.gutenberg.org/ebooks/84
+E-U-061,evaluation,unmarked,no,medium,108,86,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-062,evaluation,unmarked,no,medium,183,114,S04,Frankenstein,Mary Shelley,https://www.gutenberg.org/ebooks/84
+E-U-063,evaluation,unmarked,no,medium,140,72,S08,The Adventures of Tom Sawyer,Mark Twain,https://www.gutenberg.org/ebooks/74
+E-U-064,evaluation,unmarked,no,medium,123,78,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-065,evaluation,unmarked,no,medium,140,90,S08,The Adventures of Tom Sawyer,Mark Twain,https://www.gutenberg.org/ebooks/74
+E-U-066,evaluation,unmarked,no,medium,105,69,S02,Alice's Adventures in Wonderland,Lewis Carroll,https://www.gutenberg.org/ebooks/11
+E-U-067,evaluation,unmarked,no,medium,120,78,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-068,evaluation,unmarked,no,medium,116,86,S04,Frankenstein,Mary Shelley,https://www.gutenberg.org/ebooks/84
+E-U-069,evaluation,unmarked,no,medium,116,79,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-070,evaluation,unmarked,no,medium,171,112,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-071,evaluation,unmarked,no,medium,102,74,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-072,evaluation,unmarked,no,medium,176,101,S02,Alice's Adventures in Wonderland,Lewis Carroll,https://www.gutenberg.org/ebooks/11
+E-U-073,evaluation,unmarked,no,medium,121,83,S08,The Adventures of Tom Sawyer,Mark Twain,https://www.gutenberg.org/ebooks/74
+E-U-074,evaluation,unmarked,no,medium,142,96,S04,Frankenstein,Mary Shelley,https://www.gutenberg.org/ebooks/84
+E-U-075,evaluation,unmarked,no,medium,176,114,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-076,evaluation,unmarked,no,medium,138,96,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-077,evaluation,unmarked,no,medium,109,80,S04,Frankenstein,Mary Shelley,https://www.gutenberg.org/ebooks/84
+E-U-078,evaluation,unmarked,no,medium,140,87,S08,The Adventures of Tom Sawyer,Mark Twain,https://www.gutenberg.org/ebooks/74
+E-U-079,evaluation,unmarked,no,medium,122,85,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-080,evaluation,unmarked,no,medium,124,85,S02,Alice's Adventures in Wonderland,Lewis Carroll,https://www.gutenberg.org/ebooks/11
+E-U-081,evaluation,unmarked,no,medium,129,82,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-082,evaluation,unmarked,no,medium,100,71,S04,Frankenstein,Mary Shelley,https://www.gutenberg.org/ebooks/84
+E-U-083,evaluation,unmarked,no,medium,134,92,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-084,evaluation,unmarked,no,medium,100,69,S08,The Adventures of Tom Sawyer,Mark Twain,https://www.gutenberg.org/ebooks/74
+E-U-085,evaluation,unmarked,no,medium,131,84,S08,The Adventures of Tom Sawyer,Mark Twain,https://www.gutenberg.org/ebooks/74
+E-U-086,evaluation,unmarked,no,medium,110,74,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-087,evaluation,unmarked,no,medium,144,87,S02,Alice's Adventures in Wonderland,Lewis Carroll,https://www.gutenberg.org/ebooks/11
+E-U-088,evaluation,unmarked,no,medium,123,76,S08,The Adventures of Tom Sawyer,Mark Twain,https://www.gutenberg.org/ebooks/74
+E-U-089,evaluation,unmarked,no,medium,184,110,S04,Frankenstein,Mary Shelley,https://www.gutenberg.org/ebooks/84
+E-U-090,evaluation,unmarked,no,medium,105,73,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-091,evaluation,unmarked,no,medium,105,75,S08,The Adventures of Tom Sawyer,Mark Twain,https://www.gutenberg.org/ebooks/74
+E-U-092,evaluation,unmarked,no,medium,141,101,S04,Frankenstein,Mary Shelley,https://www.gutenberg.org/ebooks/84
+E-U-093,evaluation,unmarked,no,medium,122,84,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-094,evaluation,unmarked,no,medium,163,109,S04,Frankenstein,Mary Shelley,https://www.gutenberg.org/ebooks/84
+E-U-095,evaluation,unmarked,no,medium,108,74,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-096,evaluation,unmarked,no,medium,124,85,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-097,evaluation,unmarked,no,medium,170,104,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-098,evaluation,unmarked,no,medium,125,87,S04,Frankenstein,Mary Shelley,https://www.gutenberg.org/ebooks/84
+E-U-099,evaluation,unmarked,no,medium,137,90,S02,Alice's Adventures in Wonderland,Lewis Carroll,https://www.gutenberg.org/ebooks/11
+E-U-100,evaluation,unmarked,no,medium,116,78,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-101,evaluation,unmarked,no,long,210,134,S08,The Adventures of Tom Sawyer,Mark Twain,https://www.gutenberg.org/ebooks/74
+E-U-102,evaluation,unmarked,no,long,239,153,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-103,evaluation,unmarked,no,long,337,184,S04,Frankenstein,Mary Shelley,https://www.gutenberg.org/ebooks/84
+E-U-104,evaluation,unmarked,no,long,215,131,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-105,evaluation,unmarked,no,long,388,209,S04,Frankenstein,Mary Shelley,https://www.gutenberg.org/ebooks/84
+E-U-106,evaluation,unmarked,no,long,201,118,S02,Alice's Adventures in Wonderland,Lewis Carroll,https://www.gutenberg.org/ebooks/11
+E-U-107,evaluation,unmarked,no,long,340,174,S04,Frankenstein,Mary Shelley,https://www.gutenberg.org/ebooks/84
+E-U-108,evaluation,unmarked,no,long,345,196,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-109,evaluation,unmarked,no,long,213,108,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-110,evaluation,unmarked,no,long,249,148,S08,The Adventures of Tom Sawyer,Mark Twain,https://www.gutenberg.org/ebooks/74
+E-U-111,evaluation,unmarked,no,long,229,144,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-112,evaluation,unmarked,no,long,230,140,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-113,evaluation,unmarked,no,long,215,133,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-114,evaluation,unmarked,no,long,200,128,S08,The Adventures of Tom Sawyer,Mark Twain,https://www.gutenberg.org/ebooks/74
+E-U-115,evaluation,unmarked,no,long,372,212,S04,Frankenstein,Mary Shelley,https://www.gutenberg.org/ebooks/84
+E-U-116,evaluation,unmarked,no,long,343,194,S08,The Adventures of Tom Sawyer,Mark Twain,https://www.gutenberg.org/ebooks/74
+E-U-117,evaluation,unmarked,no,long,296,171,S04,Frankenstein,Mary Shelley,https://www.gutenberg.org/ebooks/84
+E-U-118,evaluation,unmarked,no,long,239,140,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-119,evaluation,unmarked,no,long,201,129,S08,The Adventures of Tom Sawyer,Mark Twain,https://www.gutenberg.org/ebooks/74
+E-U-120,evaluation,unmarked,no,long,203,130,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-121,evaluation,unmarked,no,long,223,142,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-122,evaluation,unmarked,no,long,207,133,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-123,evaluation,unmarked,no,long,299,168,S02,Alice's Adventures in Wonderland,Lewis Carroll,https://www.gutenberg.org/ebooks/11
+E-U-124,evaluation,unmarked,no,long,331,165,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-125,evaluation,unmarked,no,long,227,131,S04,Frankenstein,Mary Shelley,https://www.gutenberg.org/ebooks/84
+E-U-126,evaluation,unmarked,no,long,327,176,S08,The Adventures of Tom Sawyer,Mark Twain,https://www.gutenberg.org/ebooks/74
+E-U-127,evaluation,unmarked,no,long,237,144,S02,Alice's Adventures in Wonderland,Lewis Carroll,https://www.gutenberg.org/ebooks/11
+E-U-128,evaluation,unmarked,no,long,276,165,S08,The Adventures of Tom Sawyer,Mark Twain,https://www.gutenberg.org/ebooks/74
+E-U-129,evaluation,unmarked,no,long,306,168,S08,The Adventures of Tom Sawyer,Mark Twain,https://www.gutenberg.org/ebooks/74
+E-U-130,evaluation,unmarked,no,long,294,153,S04,Frankenstein,Mary Shelley,https://www.gutenberg.org/ebooks/84
+E-U-131,evaluation,unmarked,no,long,219,144,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-132,evaluation,unmarked,no,long,205,115,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-133,evaluation,unmarked,no,long,263,162,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-134,evaluation,unmarked,no,long,255,164,S04,Frankenstein,Mary Shelley,https://www.gutenberg.org/ebooks/84
+E-U-135,evaluation,unmarked,no,long,399,219,S04,Frankenstein,Mary Shelley,https://www.gutenberg.org/ebooks/84
+E-U-136,evaluation,unmarked,no,long,290,152,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-137,evaluation,unmarked,no,long,234,149,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-138,evaluation,unmarked,no,long,217,145,S04,Frankenstein,Mary Shelley,https://www.gutenberg.org/ebooks/84
+E-U-139,evaluation,unmarked,no,long,265,156,S04,Frankenstein,Mary Shelley,https://www.gutenberg.org/ebooks/84
+E-U-140,evaluation,unmarked,no,long,211,129,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-141,evaluation,unmarked,no,long,257,138,S04,Frankenstein,Mary Shelley,https://www.gutenberg.org/ebooks/84
+E-U-142,evaluation,unmarked,no,long,218,139,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-143,evaluation,unmarked,no,long,225,131,S02,Alice's Adventures in Wonderland,Lewis Carroll,https://www.gutenberg.org/ebooks/11
+E-U-144,evaluation,unmarked,no,long,310,166,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-145,evaluation,unmarked,no,long,389,216,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-146,evaluation,unmarked,no,long,229,135,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-147,evaluation,unmarked,no,long,283,162,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-148,evaluation,unmarked,no,long,331,197,S04,Frankenstein,Mary Shelley,https://www.gutenberg.org/ebooks/84
+E-U-149,evaluation,unmarked,no,long,303,180,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-U-150,evaluation,unmarked,no,long,229,139,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-W-01,evaluation,watermarking,yes,medium,105,76,S02,Alice's Adventures in Wonderland,Lewis Carroll,https://www.gutenberg.org/ebooks/11
+E-W-02,evaluation,watermarking,yes,medium,133,93,S04,Frankenstein,Mary Shelley,https://www.gutenberg.org/ebooks/84
+E-W-03,evaluation,watermarking,yes,medium,185,116,S04,Frankenstein,Mary Shelley,https://www.gutenberg.org/ebooks/84
+E-W-04,evaluation,watermarking,yes,medium,141,94,S02,Alice's Adventures in Wonderland,Lewis Carroll,https://www.gutenberg.org/ebooks/11
+E-W-05,evaluation,watermarking,yes,medium,118,70,S08,The Adventures of Tom Sawyer,Mark Twain,https://www.gutenberg.org/ebooks/74
+E-W-06,evaluation,watermarking,no,medium,104,73,S08,The Adventures of Tom Sawyer,Mark Twain,https://www.gutenberg.org/ebooks/74
+E-W-07,evaluation,watermarking,no,medium,162,110,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-W-08,evaluation,watermarking,no,medium,106,74,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-W-09,evaluation,watermarking,no,medium,117,85,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
+E-W-10,evaluation,watermarking,no,medium,109,82,S06,The Adventures of Sherlock Holmes,Arthur Conan Doyle,https://www.gutenberg.org/ebooks/1661
