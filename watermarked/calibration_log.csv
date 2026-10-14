@@ -1,0 +1,6 @@
+passage_id,version,editor,target,stopping_rule,start,end,minutes,score_before,score_after,target_reached,notes,reviewer,meaning_preserved,readable,scores_hidden_during_review
+C-W-01,v1,Barack,0.70,target or 15 min,13:01,13:16,15,0.409,0.504,no,also rewrote some phrases; 'using the toilet' may change meaning,Sylvain,yes,yes,yes
+C-W-02,v1,Barack,0.70,target or 15 min,14:52,15:07,15,0.479,0.629,no,17 one-word swaps + deleted 'ever'; 'told' now repeats 3 times,Sylvain,yes,yes,yes
+C-W-03,v1,Barack,0.70,target or 15 min,19:30,19:40,10,0.427,0.530,no,9 one-word swaps + 'good-natured' -> 'kind' (2x); 117 -> 115 words; stopped early (no more good swaps),Sylvain,yes,yes,yes
+C-W-04,v1,Barack,0.70,target or 15 min,19:53,20:07,14,0.547,0.705,yes,"10 one-word swaps; deleted 'then' 'yet' 'Now'; take off->remove; took off->removed; some->a; As->While; Van Helsing->the Professor; 128 -> 122 words; fixed 2 typos after stop (space, capital P)",Sylvain,yes,yes,yes
+C-W-05,v1,Barack,0.70,target or 15 min,20:13,20:26,13,0.407,0.512,no,"11 one-word swaps; by this time->already; had not it been for->but for; deleted 'so'; extra rewrites: got->pursued, 'say it of them, but so it is'->'say this about them, but it is the truth'; 167 -> 162 words",Sylvain,yes,yes,yes

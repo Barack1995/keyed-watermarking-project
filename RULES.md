@@ -32,6 +32,35 @@ lengths, watermarking, and detection. The code is in
 - **Distinct words:** each different word counted once.
 - Example: `the cat and the dog` = 5 total, 4 distinct.
 
+## Scoring
+
+The detector is in `watermark/detector.py`.
+
+1. Split the text into words with the rules above.
+2. Give each word a color with the secret key (`watermark/color.py`).
+   1 means green, 0 means red.
+3. Score = green words / total words.
+   Repeated words count every time.
+4. The text is flagged only when the score is **greater than** the threshold.
+   A score equal to the threshold is not flagged.
+
+Example: 65 green words out of 100 words gives a score of 0.65.
+With a threshold of 0.60, the text is flagged.
+
+The detector also returns the total and distinct word counts.
+
+## Empty input
+
+If the text has no words (for example `123 !!`), the detector does not
+give a score. It stops with this error:
+
+    ValueError: Empty input: the text has no words to score.
+
+## Threshold
+
+The threshold is not chosen yet. We will choose it in calibration and
+save it in `settings.py`. It will not change during evaluation.
+
 ## Important
 
 These rules must not change after the passages are split into
