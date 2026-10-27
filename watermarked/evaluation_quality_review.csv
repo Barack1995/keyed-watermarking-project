@@ -1,0 +1,11 @@
+passage_id,original_file,watermarked_file,reviewer,meaning_preserved,readable,note
+E-W-01,data/passages/evaluation/watermarking/E-W-01.txt,watermarked/evaluation/E-W-01_v1.txt,Sylvain,no,yes,"meaning not preserved, but readable"
+E-W-02,data/passages/evaluation/watermarking/E-W-02.txt,watermarked/evaluation/E-W-02_v1.txt,Sylvain,no,yes,"meaning not preserved, but readable"
+E-W-03,data/passages/evaluation/watermarking/E-W-03.txt,watermarked/evaluation/E-W-03_v1.txt,Sylvain,no,yes,"meaning not preserved, but readable"
+E-W-04,data/passages/evaluation/watermarking/E-W-04.txt,watermarked/evaluation/E-W-04_v1.txt,Sylvain,no,yes,"meaning not preserved, but readable"
+E-W-05,data/passages/evaluation/watermarking/E-W-05.txt,watermarked/evaluation/E-W-05_v1.txt,Sylvain,no,yes,"meaning not preserved, but readable"
+E-W-06,data/passages/evaluation/watermarking/E-W-06.txt,watermarked/evaluation/E-W-06_v1.txt,Sylvain,no,yes,"meaning not preserved, but readable"
+E-W-07,data/passages/evaluation/watermarking/E-W-07.txt,watermarked/evaluation/E-W-07_v1.txt,Sylvain,no,yes,"meaning not preserved, but readable"
+E-W-08,data/passages/evaluation/watermarking/E-W-08.txt,watermarked/evaluation/E-W-08_v1.txt,Sylvain,no,yes,"meaning not preserved, but readable"
+E-W-09,data/passages/evaluation/watermarking/E-W-09.txt,watermarked/evaluation/E-W-09_v1.txt,Sylvain,no,yes,"meaning not preserved, but readable"
+E-W-10,data/passages/evaluation/watermarking/E-W-10.txt,watermarked/evaluation/E-W-10_v1.txt,Sylvain,no,yes,"meaning not preserved, but readable"
