@@ -14,13 +14,14 @@ from watermark.color import word_color, GREEN
 from watermark.detector import detect
 
 TARGET = 0.70
-ORIGINALS = "data/passages/calibration/watermarking"
-OUTPUT = "watermarked/calibration"
-PASSAGES = ["C-W-01", "C-W-02", "C-W-03", "C-W-04", "C-W-05"]
+ORIGINALS = "data/passages/evaluation/watermarking"
+OUTPUT = "watermarked/evaluation"
+PASSAGES = ["E-W-01", "E-W-02", "E-W-03", "E-W-04", "E-W-05",
+            "E-W-06", "E-W-07", "E-W-08", "E-W-09", "E-W-10"]
 
 VERSION = "v1"
 MIN_WORD_LENGTH = 4
-LOG_FILE = f"watermarked/auto_log_{VERSION}.csv"
+LOG_FILE = f"watermarked/auto_log_evaluation_{VERSION}.csv"
 
 
 # Get synonyms and broader words for one word from WordNet.
