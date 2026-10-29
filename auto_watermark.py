@@ -19,7 +19,7 @@ OUTPUT = "watermarked/evaluation"
 PASSAGES = ["E-W-01", "E-W-02", "E-W-03", "E-W-04", "E-W-05",
             "E-W-06", "E-W-07", "E-W-08", "E-W-09", "E-W-10"]
 
-VERSION = "v1"
+VERSION = "v3"
 MIN_WORD_LENGTH = 4
 LOG_FILE = f"watermarked/auto_log_evaluation_{VERSION}.csv"
 
