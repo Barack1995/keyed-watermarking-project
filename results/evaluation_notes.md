@@ -12,9 +12,6 @@ All settings were fixed in calibration and not changed during evaluation
 | Watermarking target | 0.70 |
 | Stopping rule | target reached, or no more red words with a green synonym |
 
-Note: the evaluation output files are named `_v1` (first evaluation run),
-but they were made with watermarking method v3.
-
 ## Main results
 
 | Measurement | Calculation | Result |
@@ -24,7 +21,7 @@ but they were made with watermarking method v3.
 | Usable watermarking success rate | flagged and pass quality check / 10 | 0 / 10 = 0% |
 
 Files: `results/evaluation_unmarked_scores.csv`,
-`watermarked/auto_log_evaluation_v1.csv`,
+`watermarked/auto_log_evaluation_v3.csv`,
 `watermarked/evaluation_quality_review.csv`
 
 ## Unmarked passages by length group
