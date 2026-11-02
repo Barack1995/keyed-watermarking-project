@@ -58,8 +58,8 @@ give a score. It stops with this error:
 
 ## Threshold
 
-The threshold is not chosen yet. We will choose it in calibration and
-save it in `settings.py`. It will not change during evaluation.
+The threshold is 0.60. We chose it in calibration and saved it in
+`settings.py`. It did not change during evaluation.
 
 ## Important
 
