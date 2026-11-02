@@ -74,6 +74,7 @@ must never be used for query-access attacks.
 
 Notes on calibration and evaluation, with all results in tables:
 `results/calibration_notes.md` and `results/evaluation_notes.md`.
+The Milestone 1 report is in reports/.
 
 ## Data sources
 
@@ -101,5 +102,27 @@ Where to find more details:
 - How many passages came from each book, and how we chose the 5 passages for Attack 3: `data/passages/summary.txt`
 
 ## Contribution statement
-(Each member will write what they did, with links to their commits.)
+
+**Barack Niyonkuru:** I wrote the rules that split a text into words. I wrote the code that makes the secret key, gives each word a color, and gives each text a score. I made the detector show an error when a text has no words. I did the calibration: I scored the 150 calibration passages, edited the 5 practice passages by hand, made a program that adds the watermark by itself, and chose the threshold 0.60. I saved the final settings before the evaluation. I did the evaluation on the 150 evaluation passages and the 10 watermarked passages. I wrote the notes, the README steps, and the first draft of Sections 1 to 6 of the report. I also checked and merged the team's changes on GitHub. My detector code was first added in commit 9fd7fa4, and my evaluation work in commit 9cb2f70.
+
+Relevant commits:
+- https://github.com/Barack1995/keyed-watermarking-project/commit/6dbf59d
+- https://github.com/Barack1995/keyed-watermarking-project/commit/5528012
+- https://github.com/Barack1995/keyed-watermarking-project/commit/09b7b17
+- https://github.com/Barack1995/keyed-watermarking-project/commit/db26c7f
+- https://github.com/Barack1995/keyed-watermarking-project/commit/933cd42
+- https://github.com/Barack1995/keyed-watermarking-project/commit/7cd71f1
+
+**Sylvain Ndayishimiye:** I found the eight free books on Project Gutenberg and made the list of books. I made the 315 passages with make_passages.py and split them into the calibration and evaluation sets. I kept each book in only one set. I chose the 5 passages for Attack 3 before any scoring. I checked the quality of the watermarked passages: I compared each one with its original, without seeing the scores, and wrote down if the meaning stayed the same and if it was easy to read. I also added the evaluation files to GitHub.
+
+Relevant commits:
+- https://github.com/Barack1995/keyed-watermarking-project/commit/7b5bec8
+- https://github.com/Barack1995/keyed-watermarking-project/commit/fbc21d5
+- https://github.com/Barack1995/keyed-watermarking-project/commit/9cb2f70
+
+**Raiyan Ashraf:** Developed a literature-backed security analysis drawing on 21 research papers, connecting published watermarking methods and attacks to the team's implementation. Compared Kirchenbauer et al.'s generation-time watermarking with the project's word-substitution scheme, examining embedding mechanisms, detection statistics, text quality, repetition, and security implications. Assessed nine technique families: blind paraphrasing, detector-guided substitution, key-guided substitution, learning from public watermarked text, repeated-word color probing, look-alike character substitution, zero-width splitting, insertion-based dilution, and guessed-word repetition. Organized these techniques into the six required threat scenarios, analyzing attacker capabilities, expected query costs, editing effort, quality risks, and defenses. Prepared the comparative literature reviews, submission threat table, and design discussions covering key distribution, context dependence, and digital signatures. Distinguished literature findings, implementation-derived calculations, and untested predictions to keep the analysis evidence-based. Discussed attack strategies and design trade-offs with teammates, provided feedback on the shared report, and helped connect the literature findings with the team's implementation and evaluation results. Also added the detector and calibration scripts to the repository in commit 9fd7fa4.
+
+Relevant commits:
+- https://github.com/Barack1995/keyed-watermarking-project/tree/raiyan/submission_materials
+- https://github.com/Barack1995/keyed-watermarking-project/commit/9fd7fa4
 
