@@ -34,9 +34,7 @@ Details: `watermarked/calibration_log.csv`
 
 ### v2 and v3: automatic
 
-The professor advised that the project focuses on watermarking and
-detection, not on keeping the exact meaning, and that automating the
-substitution is better. So we tried two automatic versions.
+The professor advised us to focus on watermarking and detection, not on keeping the exact meaning, and to automate the substitution.
 
 | Passage | Before | v2 after | v2 words changed | v3 after | v3 words changed |
 |---|---|---|---|---|---|
