@@ -1,4 +1,5 @@
 secrets/
+service_state/
 __pycache__/
 
 necessary_materials/

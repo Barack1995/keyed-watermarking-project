@@ -18,3 +18,8 @@ STOPPING_RULE = "target reached, or no more red words with a green synonym"
 RESPONSE_MODES = ("score", "binary")
 RESPONSE_MODE = "score"
 SCORE_DIGITS = 2
+
+# Service: rate limit (per account).
+RATE_LIMIT_ENABLED = True
+RATE_LIMIT_PER_WINDOW = 20
+RATE_LIMIT_WINDOW_SECONDS = 60
