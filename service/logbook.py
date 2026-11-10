@@ -3,6 +3,7 @@
 
 import json
 import os
+from datetime import datetime  # NEW
 
 from service.clock import now
 
@@ -12,9 +13,11 @@ LOG_FILE = "service_state/log.jsonl"
 # Add one line to the log. Only metadata: no text, no score, no token.
 def write_log(account, action, outcome, rate_limited, remaining):
     os.makedirs("service_state", exist_ok=True)
+    t = now()  # NEW: read the clock once, use it twice
     line = {
         "account": account,
-        "time": now(),
+        "time": t,
+        "time_text": datetime.fromtimestamp(t).strftime("%Y-%m-%d %H:%M:%S"),  # NEW
         "action": action,
         "outcome": outcome,
         "rate_limited": rate_limited,
