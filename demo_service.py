@@ -6,7 +6,7 @@ import os
 import subprocess
 import sys
 
-from service import clock, ratelimit
+from service import clock, ratelimit, config
 
 OUT_DIR = "results/service_demo"
 OUT_FILE = os.path.join(OUT_DIR, "demo_output.txt")
@@ -87,6 +87,21 @@ say("  contains a score?      " + str('"score"' in log_text))
 say("  contains a token?      " + str(any(t in log_text for t in tokens)))
 say()
 
+# ---- Demo 5: binary mode hides the score everywhere ----
+say("DEMO 5: binary mode shows the decision only")
+say("Referee switches the service to binary mode (configuration C).")
+config.set_switches(RESPONSE_MODE="binary")
+answer = run_client("--token-file", ALICE, "--detect", PASSAGE)
+log_view = run_client("--token-file", AUDRA, "--read-log", show=False)
+with open("service_state/log.jsonl", encoding="utf-8") as f:
+    log_text = f.read()
+say("Checks in binary mode:")
+say("  answer contains a score?         " + str('"score"' in answer))
+say("  auditor's log view has a score?  " + str('"score"' in log_view))
+say("  saved log file has a score?      " + str('"score"' in log_text))
+config.clear_switches()
+say()
+
 # ---- Save the output and the log, then clean up ----
 os.makedirs(OUT_DIR, exist_ok=True)
 with open(OUT_FILE, "w", encoding="utf-8") as f:
@@ -96,6 +111,7 @@ with open(os.path.join(OUT_DIR, "log_after_demo.jsonl"), "w", encoding="utf-8") 
 
 clock.use_real_time()
 ratelimit.reset_counters()
+config.clear_switches()
 os.remove("service_state/log.jsonl")
 os.remove(BAD)
 print("Saved to", OUT_FILE)
