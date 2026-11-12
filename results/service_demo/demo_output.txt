@@ -264,3 +264,15 @@ Checks on the saved log file:
   contains a score?      False
   contains a token?      False
 
+DEMO 5: binary mode shows the decision only
+Referee switches the service to binary mode (configuration C).
+$ python client.py --token-file secrets/alice_token.txt --detect data/passages/evaluation/watermarking/E-W-01.txt
+{
+  "outcome": "ok",
+  "flagged": false
+}
+Checks in binary mode:
+  answer contains a score?         False
+  auditor's log view has a score?  False
+  saved log file has a score?      False
+

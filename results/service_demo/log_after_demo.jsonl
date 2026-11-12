@@ -23,3 +23,5 @@
 {"account": "alice", "time": 0, "time_text": "1969-12-31 19:00:00", "action": "detect", "outcome": "rate_limited", "rate_limited": true, "remaining": 0}
 {"account": "alice", "time": 60, "time_text": "1969-12-31 19:01:00", "action": "detect", "outcome": "ok", "rate_limited": false, "remaining": 19}
 {"account": "audra", "time": 60, "time_text": "1969-12-31 19:01:00", "action": "read_log", "outcome": "ok", "rate_limited": false, "remaining": 19}
+{"account": "alice", "time": 60, "time_text": "1969-12-31 19:01:00", "action": "detect", "outcome": "ok", "rate_limited": false, "remaining": 18}
+{"account": "audra", "time": 60, "time_text": "1969-12-31 19:01:00", "action": "read_log", "outcome": "ok", "rate_limited": false, "remaining": 18}

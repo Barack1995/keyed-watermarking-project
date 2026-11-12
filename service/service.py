@@ -1,15 +1,18 @@
 # The door: checks the person, asks the detector, and gives the answer.
 
-from settings import RESPONSE_MODES, RESPONSE_MODE, SCORE_DIGITS
+from settings import RESPONSE_MODES, SCORE_DIGITS  # CHANGED: RESPONSE_MODE now comes from config
 from settings import KEY_FILE, THRESHOLD
 from watermark.detector import detect
 from service.accounts import check_token, is_allowed
 from service.ratelimit import check_rate_limit
 from service.logbook import write_log, read_log
+from service import config  # NEW
 
 
 # Turn the detector's full result into the answer the person sees.
-def shape_answer(result, mode=RESPONSE_MODE):
+def shape_answer(result, mode=None):  # CHANGED
+    if mode is None:  # NEW
+        mode = config.get("RESPONSE_MODE")  # NEW: switch first, then settings.py
     if mode not in RESPONSE_MODES:
         raise ValueError("Unknown response mode: " + str(mode))
     if mode == "score":

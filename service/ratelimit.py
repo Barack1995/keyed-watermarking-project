@@ -5,7 +5,7 @@ import json
 import os
 
 from service.clock import now
-from settings import RATE_LIMIT_ENABLED, RATE_LIMIT_PER_WINDOW, RATE_LIMIT_WINDOW_SECONDS
+from service import config  # CHANGED: settings now come through config
 
 COUNTERS_FILE = "service_state/counters.json"
 
@@ -27,8 +27,12 @@ def save_counters(counters):
 
 # Is this account allowed one more request? Returns (allowed, remaining).
 def check_rate_limit(account):
+    # Read the current settings (switch first, then settings.py).  # NEW
+    limit = config.get("RATE_LIMIT_PER_WINDOW")  # NEW
+    window = config.get("RATE_LIMIT_WINDOW_SECONDS")  # NEW
+
     # Piece 1: limit turned off -> always allowed.
-    if not RATE_LIMIT_ENABLED:
+    if not config.get("RATE_LIMIT_ENABLED"):  # CHANGED
         return True, None
 
     # Piece 2: get this account's count and the time.
@@ -36,12 +40,12 @@ def check_rate_limit(account):
     t = now()
     c = counters.get(account)
 
-    # Piece 3: never knocked, or 60 seconds passed -> fresh minute.
-    if c is None or t - c["window_start"] >= RATE_LIMIT_WINDOW_SECONDS:
+    # Piece 3: never knocked, or the window passed -> fresh window.
+    if c is None or t - c["window_start"] >= window:  # CHANGED
         c = {"window_start": t, "count": 0}
 
     # Piece 4: already at the limit -> refuse.
-    if c["count"] >= RATE_LIMIT_PER_WINDOW:
+    if c["count"] >= limit:  # CHANGED
         counters[account] = c
         save_counters(counters)
         return False, 0
@@ -50,7 +54,7 @@ def check_rate_limit(account):
     c["count"] += 1
     counters[account] = c
     save_counters(counters)
-    return True, RATE_LIMIT_PER_WINDOW - c["count"]
+    return True, limit - c["count"]  # CHANGED
 
 
 # DRIVER ONLY: clear all counters before a new experiment run.
