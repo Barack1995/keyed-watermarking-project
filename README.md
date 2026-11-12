@@ -59,6 +59,106 @@ The fixed settings (threshold, target, method) are in `settings.py`.
 - `auto_watermark.py`, with its settings set to the evaluation passages,
   watermarks the 10 evaluation passages (`watermarked/evaluation/`).
 
+### 6. The detection service (Milestone 2)
+
+The service is a "door" in front of the Milestone 1 detector. It checks
+who is asking (token), what they may do (role), and how often they ask
+(rate limit). It writes a log and answers with a score or with the
+decision only. The detector itself is not changed.
+
+**Setup (one time):**
+
+    python make_accounts.py
+
+This makes two demonstration accounts and saves them in
+`secrets/accounts.json` (not in Git). Each account gets a random token.
+
+| Account | Role | May do |
+|---|---|---|
+| alice | submitter | detect |
+| audra | auditor | detect, read the log |
+
+Then make one token file per account, so each person holds only their own token:
+
+    python -c "import json; a=json.load(open('secrets/accounts.json')); [open('secrets/'+v['account']+'_token.txt','w').write(k) for k,v in a.items()]"
+
+This creates `secrets/alice_token.txt` and `secrets/audra_token.txt`.
+
+To get the same scores as ours, you need our key (`secrets/key.bin`).
+Team members get the key and tokens privately, never through Git.
+
+**Use the client:**
+
+    python client.py --token-file secrets/alice_token.txt --detect <text file>
+    python client.py --token-file secrets/audra_token.txt --read-log
+
+Possible answers:
+
+| Answer | Meaning |
+|---|---|
+| `ok` + `score` + `flagged` | score mode: green fraction (2 digits) and decision |
+| `ok` + `flagged` | binary mode: decision only, no score |
+| `rejected: invalid credential` | unknown token |
+| `denied: not permitted` | the role may not do this action |
+| `rate_limited` | more than 20 requests in 60 seconds |
+| `rejected: no words` | the text has no words |
+
+**Run the demonstrations:**
+
+    python demo_service.py
+
+This runs `client.py` as a new program for every request and saves the
+output in `results/service_demo/demo_output.txt` (and a copy of the log in
+`results/service_demo/log_after_demo.jsonl`). It shows that:
+
+1. an invalid token is rejected;
+2. a submitter may detect but may not read the log;
+3. the rate limit still holds after the client restarts (request 21 is refused);
+4. an auditor may read the log, and the log has no text, score or token;
+5. in binary mode, no score appears in the answer, the log view or the log file.
+
+The demo uses a fake clock, so it does not wait real minutes.
+
+**Service settings** (in `settings.py`):
+
+| Setting | Value | Meaning |
+|---|---|---|
+| `RESPONSE_MODE` | `"score"` | `"score"` (green fraction + decision) or `"binary"` (decision only); same for every account |
+| `SCORE_DIGITS` | `2` | score is rounded to 2 digits, e.g. 0.66 |
+| `RATE_LIMIT_ENABLED` | `True` | rate limit on or off |
+| `RATE_LIMIT_PER_WINDOW` | `20` | requests allowed per account per window |
+| `RATE_LIMIT_WINDOW_SECONDS` | `60` | length of the window |
+
+For experiments, the driver can switch these for one run without editing
+`settings.py`, using `service/config.py` (`set_switches`, `clear_switches`).
+
+**What the log stores** (`service_state/log.jsonl`, not in Git): account,
+time, action, outcome, rate-limit status and requests left. It never
+stores the text, the score or the token: texts may be private, and binary
+mode must not leak scores. Counters (`service_state/counters.json`) are
+saved in a file, so they survive a client restart.
+
+**Service files:**
+
+| File | What it does |
+|---|---|
+| `make_accounts.py` | makes the accounts and tokens once |
+| `client.py` | command-line client: the only way to talk to the service |
+| `service/service.py` | the door: runs every check in order and shapes the answer |
+| `service/accounts.py` | checks tokens and role permissions |
+| `service/ratelimit.py` | per-account counters saved in a file |
+| `service/logbook.py` | writes and reads the log |
+| `service/clock.py` | real time, or fake time moved only by the driver |
+| `service/config.py` | settings for the current run (driver switches) |
+| `demo_service.py` | the demonstrations above |
+
+**Security boundary:** query-access attack code may only run `client.py`
+with its own token file. It may not import `watermark/` or `service/`,
+read `secrets/key.bin` or `secrets/accounts.json`, or touch
+`service_state/` (log, counters, clock, switches). Key-access attacks may
+also use the key. Only the experiment driver may reset the service, move
+the fake clock or switch settings.
+
 ### Helper tool
 
 `watermark_helper.py` was used for manual watermarking (version v1):
@@ -74,6 +174,7 @@ must never be used for query-access attacks.
 
 Notes on calibration and evaluation, with all results in tables:
 `results/calibration_notes.md` and `results/evaluation_notes.md`.
+Service demonstrations: `results/service_demo/`.
 The Milestone 1 report is in reports/.
 
 ## Data sources
