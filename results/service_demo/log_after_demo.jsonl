@@ -1,0 +1,25 @@
+{"account": "unknown", "time": 0, "time_text": "1969-12-31 19:00:00", "action": "detect", "outcome": "rejected: invalid credential", "rate_limited": false, "remaining": null}
+{"account": "alice", "time": 0, "time_text": "1969-12-31 19:00:00", "action": "detect", "outcome": "ok", "rate_limited": false, "remaining": 19}
+{"account": "alice", "time": 0, "time_text": "1969-12-31 19:00:00", "action": "read_log", "outcome": "denied: not permitted", "rate_limited": false, "remaining": null}
+{"account": "alice", "time": 0, "time_text": "1969-12-31 19:00:00", "action": "detect", "outcome": "ok", "rate_limited": false, "remaining": 18}
+{"account": "alice", "time": 0, "time_text": "1969-12-31 19:00:00", "action": "detect", "outcome": "ok", "rate_limited": false, "remaining": 17}
+{"account": "alice", "time": 0, "time_text": "1969-12-31 19:00:00", "action": "detect", "outcome": "ok", "rate_limited": false, "remaining": 16}
+{"account": "alice", "time": 0, "time_text": "1969-12-31 19:00:00", "action": "detect", "outcome": "ok", "rate_limited": false, "remaining": 15}
+{"account": "alice", "time": 0, "time_text": "1969-12-31 19:00:00", "action": "detect", "outcome": "ok", "rate_limited": false, "remaining": 14}
+{"account": "alice", "time": 0, "time_text": "1969-12-31 19:00:00", "action": "detect", "outcome": "ok", "rate_limited": false, "remaining": 13}
+{"account": "alice", "time": 0, "time_text": "1969-12-31 19:00:00", "action": "detect", "outcome": "ok", "rate_limited": false, "remaining": 12}
+{"account": "alice", "time": 0, "time_text": "1969-12-31 19:00:00", "action": "detect", "outcome": "ok", "rate_limited": false, "remaining": 11}
+{"account": "alice", "time": 0, "time_text": "1969-12-31 19:00:00", "action": "detect", "outcome": "ok", "rate_limited": false, "remaining": 10}
+{"account": "alice", "time": 0, "time_text": "1969-12-31 19:00:00", "action": "detect", "outcome": "ok", "rate_limited": false, "remaining": 9}
+{"account": "alice", "time": 0, "time_text": "1969-12-31 19:00:00", "action": "detect", "outcome": "ok", "rate_limited": false, "remaining": 8}
+{"account": "alice", "time": 0, "time_text": "1969-12-31 19:00:00", "action": "detect", "outcome": "ok", "rate_limited": false, "remaining": 7}
+{"account": "alice", "time": 0, "time_text": "1969-12-31 19:00:00", "action": "detect", "outcome": "ok", "rate_limited": false, "remaining": 6}
+{"account": "alice", "time": 0, "time_text": "1969-12-31 19:00:00", "action": "detect", "outcome": "ok", "rate_limited": false, "remaining": 5}
+{"account": "alice", "time": 0, "time_text": "1969-12-31 19:00:00", "action": "detect", "outcome": "ok", "rate_limited": false, "remaining": 4}
+{"account": "alice", "time": 0, "time_text": "1969-12-31 19:00:00", "action": "detect", "outcome": "ok", "rate_limited": false, "remaining": 3}
+{"account": "alice", "time": 0, "time_text": "1969-12-31 19:00:00", "action": "detect", "outcome": "ok", "rate_limited": false, "remaining": 2}
+{"account": "alice", "time": 0, "time_text": "1969-12-31 19:00:00", "action": "detect", "outcome": "ok", "rate_limited": false, "remaining": 1}
+{"account": "alice", "time": 0, "time_text": "1969-12-31 19:00:00", "action": "detect", "outcome": "ok", "rate_limited": false, "remaining": 0}
+{"account": "alice", "time": 0, "time_text": "1969-12-31 19:00:00", "action": "detect", "outcome": "rate_limited", "rate_limited": true, "remaining": 0}
+{"account": "alice", "time": 60, "time_text": "1969-12-31 19:01:00", "action": "detect", "outcome": "ok", "rate_limited": false, "remaining": 19}
+{"account": "audra", "time": 60, "time_text": "1969-12-31 19:01:00", "action": "read_log", "outcome": "ok", "rate_limited": false, "remaining": 19}

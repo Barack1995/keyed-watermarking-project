@@ -1,0 +1,266 @@
+SERVICE DEMONSTRATIONS
+Fake clock starts at 0 seconds. Rate limit: 20 requests per 60 seconds.
+
+DEMO 1: invalid token is rejected
+$ python client.py --token-file secrets/bad_token.txt --detect data/passages/evaluation/watermarking/E-W-01.txt
+{
+  "outcome": "rejected: invalid credential"
+}
+
+DEMO 2: submitter may detect, but may not read the log
+$ python client.py --token-file secrets/alice_token.txt --detect data/passages/evaluation/watermarking/E-W-01.txt
+{
+  "outcome": "ok",
+  "score": 0.56,
+  "flagged": false
+}
+$ python client.py --token-file secrets/alice_token.txt --read-log
+{
+  "outcome": "denied: not permitted"
+}
+
+DEMO 3: rate limit survives client restarts
+Alice already used 1 request in Demo 2. Each request below is a NEW client program.
+Sent 19 more requests (20 in total) with 19 separate client programs.
+Request 21, from yet another new client program:
+$ python client.py --token-file secrets/alice_token.txt --detect data/passages/evaluation/watermarking/E-W-01.txt
+{
+  "outcome": "rate_limited"
+}
+Referee moves the fake clock forward 60 seconds. New window:
+$ python client.py --token-file secrets/alice_token.txt --detect data/passages/evaluation/watermarking/E-W-01.txt
+{
+  "outcome": "ok",
+  "score": 0.56,
+  "flagged": false
+}
+
+DEMO 4: auditor may read the log
+$ python client.py --token-file secrets/audra_token.txt --read-log
+{
+  "outcome": "ok",
+  "log": [
+    {
+      "account": "unknown",
+      "time": 0,
+      "time_text": "1969-12-31 19:00:00",
+      "action": "detect",
+      "outcome": "rejected: invalid credential",
+      "rate_limited": false,
+      "remaining": null
+    },
+    {
+      "account": "alice",
+      "time": 0,
+      "time_text": "1969-12-31 19:00:00",
+      "action": "detect",
+      "outcome": "ok",
+      "rate_limited": false,
+      "remaining": 19
+    },
+    {
+      "account": "alice",
+      "time": 0,
+      "time_text": "1969-12-31 19:00:00",
+      "action": "read_log",
+      "outcome": "denied: not permitted",
+      "rate_limited": false,
+      "remaining": null
+    },
+    {
+      "account": "alice",
+      "time": 0,
+      "time_text": "1969-12-31 19:00:00",
+      "action": "detect",
+      "outcome": "ok",
+      "rate_limited": false,
+      "remaining": 18
+    },
+    {
+      "account": "alice",
+      "time": 0,
+      "time_text": "1969-12-31 19:00:00",
+      "action": "detect",
+      "outcome": "ok",
+      "rate_limited": false,
+      "remaining": 17
+    },
+    {
+      "account": "alice",
+      "time": 0,
+      "time_text": "1969-12-31 19:00:00",
+      "action": "detect",
+      "outcome": "ok",
+      "rate_limited": false,
+      "remaining": 16
+    },
+    {
+      "account": "alice",
+      "time": 0,
+      "time_text": "1969-12-31 19:00:00",
+      "action": "detect",
+      "outcome": "ok",
+      "rate_limited": false,
+      "remaining": 15
+    },
+    {
+      "account": "alice",
+      "time": 0,
+      "time_text": "1969-12-31 19:00:00",
+      "action": "detect",
+      "outcome": "ok",
+      "rate_limited": false,
+      "remaining": 14
+    },
+    {
+      "account": "alice",
+      "time": 0,
+      "time_text": "1969-12-31 19:00:00",
+      "action": "detect",
+      "outcome": "ok",
+      "rate_limited": false,
+      "remaining": 13
+    },
+    {
+      "account": "alice",
+      "time": 0,
+      "time_text": "1969-12-31 19:00:00",
+      "action": "detect",
+      "outcome": "ok",
+      "rate_limited": false,
+      "remaining": 12
+    },
+    {
+      "account": "alice",
+      "time": 0,
+      "time_text": "1969-12-31 19:00:00",
+      "action": "detect",
+      "outcome": "ok",
+      "rate_limited": false,
+      "remaining": 11
+    },
+    {
+      "account": "alice",
+      "time": 0,
+      "time_text": "1969-12-31 19:00:00",
+      "action": "detect",
+      "outcome": "ok",
+      "rate_limited": false,
+      "remaining": 10
+    },
+    {
+      "account": "alice",
+      "time": 0,
+      "time_text": "1969-12-31 19:00:00",
+      "action": "detect",
+      "outcome": "ok",
+      "rate_limited": false,
+      "remaining": 9
+    },
+    {
+      "account": "alice",
+      "time": 0,
+      "time_text": "1969-12-31 19:00:00",
+      "action": "detect",
+      "outcome": "ok",
+      "rate_limited": false,
+      "remaining": 8
+    },
+    {
+      "account": "alice",
+      "time": 0,
+      "time_text": "1969-12-31 19:00:00",
+      "action": "detect",
+      "outcome": "ok",
+      "rate_limited": false,
+      "remaining": 7
+    },
+    {
+      "account": "alice",
+      "time": 0,
+      "time_text": "1969-12-31 19:00:00",
+      "action": "detect",
+      "outcome": "ok",
+      "rate_limited": false,
+      "remaining": 6
+    },
+    {
+      "account": "alice",
+      "time": 0,
+      "time_text": "1969-12-31 19:00:00",
+      "action": "detect",
+      "outcome": "ok",
+      "rate_limited": false,
+      "remaining": 5
+    },
+    {
+      "account": "alice",
+      "time": 0,
+      "time_text": "1969-12-31 19:00:00",
+      "action": "detect",
+      "outcome": "ok",
+      "rate_limited": false,
+      "remaining": 4
+    },
+    {
+      "account": "alice",
+      "time": 0,
+      "time_text": "1969-12-31 19:00:00",
+      "action": "detect",
+      "outcome": "ok",
+      "rate_limited": false,
+      "remaining": 3
+    },
+    {
+      "account": "alice",
+      "time": 0,
+      "time_text": "1969-12-31 19:00:00",
+      "action": "detect",
+      "outcome": "ok",
+      "rate_limited": false,
+      "remaining": 2
+    },
+    {
+      "account": "alice",
+      "time": 0,
+      "time_text": "1969-12-31 19:00:00",
+      "action": "detect",
+      "outcome": "ok",
+      "rate_limited": false,
+      "remaining": 1
+    },
+    {
+      "account": "alice",
+      "time": 0,
+      "time_text": "1969-12-31 19:00:00",
+      "action": "detect",
+      "outcome": "ok",
+      "rate_limited": false,
+      "remaining": 0
+    },
+    {
+      "account": "alice",
+      "time": 0,
+      "time_text": "1969-12-31 19:00:00",
+      "action": "detect",
+      "outcome": "rate_limited",
+      "rate_limited": true,
+      "remaining": 0
+    },
+    {
+      "account": "alice",
+      "time": 60,
+      "time_text": "1969-12-31 19:01:00",
+      "action": "detect",
+      "outcome": "ok",
+      "rate_limited": false,
+      "remaining": 19
+    }
+  ]
+}
+
+Checks on the saved log file:
+  contains passage text? False
+  contains a score?      False
+  contains a token?      False
+
